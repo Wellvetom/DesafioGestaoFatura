@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="DesafioGestaoFatura.API/DesafioGestaoFatura.API.csproj" />
+  <Project Path="DesafioGestaoFatura.Application/DesafioGestaoFatura.Application.csproj" />
+  <Project Path="DesafioGestaoFatura.Domain/DesafioGestaoFatura.Domain.csproj" />
+  <Project Path="DesafioGestaoFatura.Infrastructure/DesafioGestaoFatura.Infrastructure.csproj" />
+  <Project Path="DesafioGestaoFatura.Teste/DesafioGestaoFatura.Teste.csproj" />
+</Solution>
