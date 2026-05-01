@@ -34,6 +34,7 @@ namespace DesafioGestaoFatura.Application.Services
                 Id = f.Id,
                 NomeCliente = f.NomeCliente,
                 ValorTotal = f.ValorTotal,
+                Status = f.Status.ToString(),
                 Itens = f.Itens.Select(i => new ItemFaturaDto
                 {
                     Descricao = i.Descricao,
