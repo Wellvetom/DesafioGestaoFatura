@@ -229,7 +229,6 @@ dotnet ef database update
 ```
 dotnet run
 ```
-md
 Caso necessário, as migrations podem ser recriadas com:
 
 ```bash
