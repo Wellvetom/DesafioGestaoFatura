@@ -215,21 +215,26 @@ appsettings.json
 
 ---
 
-### 🔹 Banco de dados
+## 🗄️ Banco de Dados
 
-```bash id="db"
+A aplicação utiliza Entity Framework Core com migrations.
+
+Para criar a base de dados e aplicar as tabelas, execute:
+
+```bash
 dotnet ef database update
 ```
-
----
-
 ### 🔹 Executar aplicação
 
-```bash id="run"
+```
 dotnet run
 ```
+md
+Caso necessário, as migrations podem ser recriadas com:
 
----
+```bash
+dotnet ef migrations add InitialCreat
+```
 
 ### 🔹 Swagger
 
