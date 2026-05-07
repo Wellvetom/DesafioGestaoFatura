@@ -274,7 +274,6 @@ dotnet test
 
 * Autenticação com JWT
 * Paginação e ordenação
-* Cache com Redis
 * Logging estruturado (Serilog)
 * Testes de integração
 * AutoMapper
